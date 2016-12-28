@@ -24,6 +24,20 @@ full details.
 
 The MCU runs [ChibiOS](http://chibios.org/).
 
+## Compiling
+
+### Ubuntu
+
+Install the `gcc-arm-none-eabi` package. Set TRGT to `arm-none-eabi-` and then
+type `make` in src.
+
+```shell
+apt-get install gcc-arm-none-eabi
+export TRGT=arm-none-eabi-
+cd src
+make
+```
+
 
 ## License
 
